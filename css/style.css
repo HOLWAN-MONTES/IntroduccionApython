@@ -39,7 +39,7 @@ header{
     padding:20px 0 0 0;
    
     width: 90%;
-    /* text-align:center; */ /* centrar el titulo */
+    text-align:center; /* centrar el titulo */
 
 }
 
@@ -109,8 +109,13 @@ header div .imgD{
     height: 600px;
     border:none;
     display: block;
+    
 }
 
+article{
+    display:flex;
+    justify-content:flex-end;
+}
 
 
 /* --------------footer------------ */
