@@ -31,12 +31,12 @@ header{
 }
 
 .titulo{
-    font-size:80px;
+    font-size:40px;
     display:inline;
 }
 
 .tituloD{
-    padding:40px 0 0 0;
+    padding:20px 0 0 0;
    
     width: 90%;
     /* text-align:center; */ /* centrar el titulo */
@@ -50,7 +50,7 @@ header div .imgD{
 }
 .img{
     margin-left:5%;
-    width: 200px;
+    width: 100px;
     border-radius:50%;
     border:1px solid rgba(80, 142, 179, 0.336);
 }
@@ -84,7 +84,7 @@ header div .imgD{
 
 .divCaja h2{
     
-    font-size:34px;
+    font-size:17px;
     display:inline;
     cursor:pointer;
 }
@@ -98,8 +98,8 @@ header div .imgD{
 .divCaja{
     
     border-left:1px solid cadetblue;
-    padding:20px;
-    margin-left: 50px;
+    padding:10px;
+    margin-left: 25px;
      float: right;
 }
 
