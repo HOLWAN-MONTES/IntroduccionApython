@@ -51,7 +51,9 @@ header div .imgD{
         
 }
 .img{
-    margin-left:5%;
+    
+    margin-left:25%;
+    margin-top:15%;
     width: 100px;
     border-radius:50%;
     border:1px solid rgba(80, 142, 179, 0.336);
@@ -139,16 +141,40 @@ footer{
 }
 
 footer .by{
-    
+    width: 60%;
     top:3%;
-    border:2px solid green;
+ 
+    padding:14px;
+}
+
+footer .by span{
+    display: flex;
+}
+
+.creado{
+    color:white;
+    
+    padding:10px;
+    
+}
+
+.COnnombres{
+    display: block;
+}
+
+.erw{
+   
+    text-align:none;
+    padding:0 0 0 37px;
+}
+
+.nombres{
+    color:white;
+    
 }
 
 
-
-
-
-/* dentro del main */
+/* ------------------------------dentro del main ------*/
 .conte{
        
     top: 180px;
