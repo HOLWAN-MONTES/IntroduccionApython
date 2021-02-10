@@ -135,6 +135,55 @@ footer .by{
     border:2px solid green;
 }
 
+.conte{
+    position:absolute;
+    top: 180px;
+    display:flex;
+    justify-content:space-between;
+    visibility: hidden;
+    flex-wrap: wrap;
+    width:78%;
+
+}
+
+.conteDos {
+    position:absolute;
+    top: 180px;
+    display:flex;
+    justify-content:center;
+    visibility: hidden;
+    flex-wrap: wrap;
+    width:78%;
+}
+
+.conteCuatro{
+    position:absolute;
+    top: 180px;
+    display:flex;
+    justify-content:space-between;
+    visibility: hidden;
+    flex-wrap: wrap;
+    width:78%;
+}
+
+.conte div {
+    width: 30%;
+   
+}
+
+.conteCuatro div {
+    width: 30%;
+    margin-top: 10px;
+   
+}
+
+.imagen {
+    width:200%;
+    height:130%;
+    margin-left: 10%;
+    margin-top:10px;
+}
+
 
 
 
