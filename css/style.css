@@ -138,6 +138,7 @@ footer .by{
 .conte{
     position:absolute;
     top: 180px;
+    left:40px;
     display:flex;
     justify-content:space-between;
     visibility: hidden;
@@ -149,6 +150,7 @@ footer .by{
 .conteDos {
     position:absolute;
     top: 180px;
+    left:40px;
     display:flex;
     justify-content:center;
     visibility: hidden;
@@ -159,6 +161,7 @@ footer .by{
 .conteCuatro{
     position:absolute;
     top: 180px;
+    left:40px;
     display:flex;
     justify-content:space-between;
     visibility: hidden;
