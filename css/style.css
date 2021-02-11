@@ -195,16 +195,14 @@ footer .by span{
 
 .conteQuinto {
     position:absolute;
-    top: 180px;
-    left:40px;
-    display:flex;
-    justify-content:center;
-    width:78%;
-    z-index: 2;
+    width:80%;
+    padding:20px;
+    /* display:none;  *//* --------------------- */
 }
 
 .conteQuinto img {
-    width: 100vh;
+    width:100%;
+    background-size:100vh 100vw;
 }
 
 .conteDos {
@@ -276,6 +274,27 @@ footer .by span{
     border-top:2px solid rgba(80, 142, 179, 0.336);
 }
 
+/* -----aplicacion escritoprio tkinder python */
+.appEscritorio{
+    width:80%;
+    border:1px solid red;
+    padding:10px;
+    position:absolute;
+    visibility: hidden;
+}
+
+.appEscritorio div h2{
+    font-size:25px;
+    margin-bottom: 15px;
+    text-align:center;
+    border-bottom:1px solid var(--colorMenu);
+    width:100%;
+}
+
+.appEscritorio div p{
+    font-size:20px;
+    margin-bottom: 15px;
+}
 
 /* ----------------------------bibliografia--links--------------------------- */
 .bibliografiaLink{
@@ -383,6 +402,7 @@ footer .by span{
 
 .ejer img {
     width: 100vh;
+    
 }
 
 

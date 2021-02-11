@@ -14,6 +14,21 @@ const ejer = document.getElementById("ejer")
 const logo = document.getElementById("Logo")
 const present = document.getElementById("present")
 
+const appEscritorio = document.getElementById("appEscritorio")
+const BtnappEscritorio = document.getElementById('BtnappEscritorio')
+
+
+BtnappEscritorio.addEventListener('click', () =>{
+    conte.style.visibility = "hidden"
+    tabla.style.visibility = "hidden"
+    defi.style.visibility = "hidden"
+    lenguajesUsados.style.visibility = "hidden"
+    bibliografiaLink.style.visibility = "hidden"
+    ejer.style.visibility = "hidden"
+    present.style.visibility="hidden"
+    appEscritorio.style.visibility = "visible"
+})
+
 python.addEventListener("click",() => {
     conte.style.visibility = "visible"
     tabla.style.visibility = "hidden"
@@ -22,6 +37,7 @@ python.addEventListener("click",() => {
     bibliografiaLink.style.visibility = "hidden"
     ejer.style.visibility = "hidden"
     present.style.visibility="hidden"
+    appEscritorio.style.visibility = "hidden"
 
 })
 
@@ -33,6 +49,7 @@ bibliografia.addEventListener('click', () =>{
     bibliografiaLink.style.visibility = "visible"
     ejer.style.visibility = "hidden"
     present.style.visibility="hidden"
+    appEscritorio.style.visibility = "hidden"
 })
 
 vs.addEventListener("click", () => {
@@ -43,6 +60,7 @@ vs.addEventListener("click", () => {
     bibliografiaLink.style.visibility = "hidden"
     ejer.style.visibility = "hidden"
     present.style.visibility="hidden"
+    appEscritorio.style.visibility = "hidden"
 })
 
 leguajes.addEventListener('click', () => {
@@ -53,6 +71,7 @@ leguajes.addEventListener('click', () => {
     bibliografiaLink.style.visibility = "hidden"
     ejer.style.visibility = "hidden"
     present.style.visibility="hidden"
+    appEscritorio.style.visibility = "hidden"
 })
 
 deficiones.addEventListener("click", () => {
@@ -63,6 +82,7 @@ deficiones.addEventListener("click", () => {
     bibliografiaLink.style.visibility = "hidden"
     ejer.style.visibility = "hidden"
     present.style.visibility="hidden"
+    appEscritorio.style.visibility = "hidden"
 })
 
 logo.addEventListener("click", () => {
