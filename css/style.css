@@ -193,6 +193,20 @@ footer .by span{
     margin-bottom:5px;
 }
 
+.conteQuinto {
+    position:absolute;
+    top: 180px;
+    left:40px;
+    display:flex;
+    justify-content:center;
+    width:78%;
+    z-index: 2;
+}
+
+.conteQuinto img {
+    width: 100vh;
+}
+
 .conteDos {
     position:absolute;
     top: 180px;
@@ -357,6 +371,18 @@ footer .by span{
 }
 .st p{
     font-size:20px;
+}
+
+.ejer {
+    position: absolute;
+    top: 100px;
+    z-index: 2;
+    left: 260px;
+    visibility: hidden;
+}
+
+.ejer img {
+    width: 100vh;
 }
 
 
