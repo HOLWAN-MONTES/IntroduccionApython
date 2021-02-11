@@ -143,7 +143,6 @@ footer{
 footer .by{
     width: 60%;
     top:3%;
- 
     padding:14px;
 }
 
@@ -264,9 +263,65 @@ footer .by span{
 }
 
 
+/* ----------------------------bibliografia--links--------------------------- */
+.bibliografiaLink{
+    visibility: hidden;
+    width:80%;
+    position:absolute;
+    margin-top:10%;
+}
+
+.links{
+    display:grid;
+    grid-template-columns: 1fr;
+    padding:10px;
+    text-align:center;
+}
+
+.links span{
+    padding:20px ;
+
+}
+
+/* -----lenguajes usados */
+
+
+.lenguajesUsados{
+    width:80%;
+    position: absolute;
+    margin-top:3%;
+    visibility: hidden;
+    
+}
 
 
 
+.ProgramacionOrientada div{
+    padding:20px;
+}
+
+.ProgramacionOrientada{
+    padding:5px;
+    display:flex;
+    margin-bottom:20px;
+}
+
+.programa{
+    text-align:center;
+    margin-right:10%;
+}
+
+.programacionEs{
+    padding:30px 0 0 0;
+    display:flex;
+   
+}
+
+.imgs{
+   
+    width:100px;
+    height: 100px;
+}
 
 /* -----------------PAGINA DE FRAME.HTML-------------------- */
 .loguito{
